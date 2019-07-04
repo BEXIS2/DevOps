@@ -15,18 +15,40 @@
 
 ## Upcoming
 
-### 2019-07-05
+### 2019-07-04
 
-**Time**: 
-**Venue**: 
-**Attendees**: 
+**Time**: 13:15
+**Venue**: Telco
+**Attendees**: Eleonora, Hamdi, Martin, Sven
 
-**Topic**: Instance Presentations
+**Topic(s)**: Instance Presentations
 
 * open issues from last meeting?
 
-* BEXIS
 * AquaDiva
+  * in general problems with materialized views for large datasets
+    * visualization of ONLY indexed datasets (different from core implementation)
+  * modification of search interface (especially for facets)
+    * redure redundancies (e.g. owner names - only "Kai Totsche", and not "Kai", "Totsche" and "Kai Totsche")
+    * needs modifications in the search config files for "how to index and compose nodes"
+    * still some minor issues with handling of values in different metadata schemas
+    * potential improvement(s): offer the possibility to create rules for "merging"
+  * dataset annotations
+    * embedded into the easy upload
+    * suggestions (e.g. similar to unit)
+  * statistics
+    * how many datasets, data-points, and so on...
+  * resource booking management
+    * rights management should applied beforehand
+    * workflow: request -> decision -> confirmation
+    * additional step in the "wizard"
+    * additional settings file (similar to credentials.config)
+    * this modified feature is not used (even though this was a high prioritized function)
+  * dataset summary
+    * python/R scripts 
+    * big data seems to be an issue - long loading time
+  * more visual relationship graphs with "a priori" algorithms
+    * still some issues with those identifications
 
 ---
 
@@ -38,7 +60,7 @@
 **Venue**: Kaffeeküche
 **Attendees**: David, Eleonora, Hamdi, Martin, Sven
 
-**Topic**: Instance Presentations
+**Topic(s)**: Instance Presentations
 
 * iDiv
   * bexis2 version: 2.12.0 (2x)
@@ -82,7 +104,7 @@
 **Venue**: Telco Room (JenTower 17N01)\
 **Attendees**: David, Eleonora, Franzi, Hamdi, Martin, Sven
 
-**Topic**: Just get together the first time!
+**Topic(s)**: Just get together the first time!
 
 * What should be the outcome of those kinds of meetings?
   * regular reports of BEXIS2 core and side project(s) - e.g. iDiv, AquaDiva, Biodiversity Exploratories
