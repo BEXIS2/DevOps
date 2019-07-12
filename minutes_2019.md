@@ -15,9 +15,65 @@
 
 ## Upcoming
 
+### 2019-07-12
+
+**Time**: 13:30
+**Venue**: Telco
+**Attendees**: David, Eleonora, Martin, Sven
+
+**Topic(s)**: Instance Presentations
+
+* BEXIS
+  * migration by end of 2019 (soon before christmas)
+    * bexis2 version: latest
+    * postgresql : 9.6 (probably 10)
+    * server: windows server 2012
+  * core modifications mostly done by Franzi
+    * further information - session needed
+  * documentations and help for every module (eihter existing or available soon)
+  * RBM (resource booking management)
+    * features
+      * overview of resources
+      * calendar view
+      * exchangable content (resources could be defined differently - e.g. CDs, cars,...)
+    * migration of feature permissions still open
+  * EMM (event management module)
+    * planning of events, meetings, retreats, etc.
+    * available for anonymous users (secured with password)
+    * XML based event form (using metadata entity)
+    * small issues (e.g. "create dataset" and not "create event/register")
+  * FMT (file management tool)
+    * management of different types of data (internal documents)
+      * several security issues for different file types
+      * controller with specific scope on "normal" users and "administrators"
+  * LUI (landuse information)
+    * calculation based on dataset(s)
+    * parameter selection based on form (based on config file)
+  * PGM (photo gallery module)
+    * gallery with cart
+    * order by email - using the template from the cart
+  * PMM (plot management module)
+    * plot chart from BEXIS
+    * generic with options to create polygones (areas)
+  * TCD (TubeDB Climate Data)
+    * module for climate data
+  * BMM (BEXIX migration module)
+    * not that flexible - probably useful for other BEXIS instances e.g. Jena Experiment
+    * project specific modifications are necessary
+  * DOV (dataset overview)
+    * small windows application
+    * runs once per night to calculate something
+      * e.g. plots of measurements
+* ALM (alumni management)
+* 
+
+---
+
+## Past
+
 ### 2019-07-04
 
-**Time**: 13:15
+**Time**: 13:15 - 14:10
 **Venue**: Telco
 **Attendees**: Eleonora, Hamdi, Martin, Sven
 
@@ -51,8 +107,6 @@
     * still some issues with those identifications
 
 ---
-
-## Past
 
 ### 2019-06-27
 
