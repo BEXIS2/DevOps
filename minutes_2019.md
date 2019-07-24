@@ -14,6 +14,63 @@
 ---
 
 ## Upcoming
+### 2019-07-25
+David and Sven: GIT
+
+## Past
+
+### 2019-07-18
+**Time**: 13:15
+**Venue**: Telco
+**Attendees**: David, Eleonora, Franzi, Hamdi, Martin, Neha, Sven
+
+**Topic(s)**: Core modifications (Franzi)
+
+* New (already part of core)
+   * Upper / lower case writing of field titles 
+     * This Is A Field Title -> This is a field title
+   * Save only valid filled forms (e.g. used for event registration / -> new parameter)
+   * Import data button optional (-> new parameter)
+   * Forbid editing (->new parameter)
+ ***
+ **SAVE_WITH_ERRORS**: The default behavior is (and was) that metadata can be saved even if there are still errors inside (state: not valid). This new parameter allows to force a valid metadata dataset before it is saved. This feature is currently used in EMM for event registration (non-valid registrations are not allowed).
+
+**LOCKED**: The default behavior reacts on set permissions (view or edit). The new parameter allows to override this and set it to the view-mode. This feature is currently used in EMM to explicit forbid editing a registration, if this is not allowed in general or the deadline for the event is over.
+
+**NO_IMPORT_ACTION**: By default under certain conditions it is possible to import an XML file with the metadata. For some use cases this should be not possible. This feature is currently used in EMM to hide the IMPORT function.
+
+ ***
+* 
+   * Help 
+      * Need to show permanent help for event registration
+      * XSD: <![CDATA[…]]> (to allow HTML)
+      * (help for headline pending)
+
+   * Choices
+* Pending 
+    * PostgreSQL 10 materialized view support (solved)
+    * Group View in Tabs
+
+* Ongoing
+    * Display of text areas by default
+       * max text length >250 (?)
+   * CSS: Change colors (and other values) to CSS variables
+   * Allow additional JavaScript file in dataset edit view 
+     * additional validation e.g. dependencies start date before end date (for event registration)
+     * File upload external in module (event template creation) 
+     * -> new parameter (path to file)
+
+* Planned (wish list)
+    * Redesign of dataset view to improve readability
+  
+* General 
+   * Installation of new modules / code manipulation on server
+     * **make sure the ASP.net temporary files are updated! 
+   * Telerik substitution
+
+
+
+
 ### 2019-07-12
 
 **Time**: 13:30
@@ -22,10 +79,56 @@
 
 **Topic(s)**: Instance Presentations
 
+* BEXIS
+  * migration by end of 2019 (soon before christmas)
+    * bexis2 version: latest
+    * postgresql : 9.6 (probably 10)
+    * server: windows server 2012
+  * core modifications mostly done by Franzi
+    * further information - session needed
+  * documentations and help for every module (eihter existing or available soon)
+  * RBM (resource booking management)
+    * features
+      * overview of resources
+      * calendar view
+      * exchangable content (resources could be defined differently - e.g. CDs, cars,...)
+    * migration of feature permissions still open
+  * EMM (event management module)
+    * planning of events, meetings, retreats, etc.
+    * available for anonymous users (secured with password)
+    * XML based event form (using metadata entity)
+    * small issues (e.g. "create dataset" and not "create event/register")
+  * FMT (file management tool)
+    * management of different types of data (internal documents)
+      * several security issues for different file types
+      * controller with specific scope on "normal" users and "administrators"
+  * LUI (landuse information)
+    * calculation based on dataset(s)
+    * parameter selection based on form (based on config file)
+  * PGM (photo gallery module)
+    * gallery with cart
+    * order by email - using the template from the cart
+  * PMM (plot management module)
+    * plot chart from BEXIS
+    * generic with options to create polygones (areas)
+  * TCD (TubeDB Climate Data)
+    * module for climate data
+  * BMM (BEXIX migration module)
+    * not that flexible - probably useful for other BEXIS instances e.g. Jena Experiment
+    * project specific modifications are necessary
+  * DOV (dataset overview)
+    * small windows application
+    * runs once per night to calculate something
+      * e.g. plots of measurements
+* ALM (alumni management)
+* 
+
+---
+
 
 ### 2019-07-04
 
-**Time**: 13:15
+**Time**: 13:15 - 14:10
 **Venue**: Telco
 **Attendees**: Eleonora, Hamdi, Martin, Sven
 
@@ -59,8 +162,6 @@
     * still some issues with those identifications
 
 ---
-
-## Past
 
 ### 2019-06-27
 
