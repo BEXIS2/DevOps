@@ -14,6 +14,14 @@
 ---
 
 ## Upcoming
+### 2019-07-12
+
+**Time**: 13:30
+**Venue**: Telco
+**Attendees**: David, Eleonora, Martin, Sven
+
+**Topic(s)**: Instance Presentations
+
 
 ### 2019-07-04
 
