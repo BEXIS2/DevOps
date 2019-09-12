@@ -18,6 +18,35 @@
 David and Sven: GIT
 
 ## Past
+### 2019-09-12
+**Time**: 13:09
+**Venue** Telco
+**Attendees**: David, Franzi, Hamdi, Martin
+
+* AquaDiva news
+  * plan to move to current Version (13) next month (after release)
+  * new student assistant can help for testing
+
+* Jenkins (David)
+
+* Release procedure 
+  * db script with changes
+  * workspace (only changed files in the folder) -> Github private Repo
+  * changes in code (higher level, not in detail)
+  * use README file 
+  
+
+### 2019-09-17
+**Time**: 13:30
+**Venue**: David / Sven room
+**Attendees**: David, Sven, Eleonora, Martin, Franzi
+
+**Topi(c)**: Testing tools
+* Selenium
+* testquality.com
+
+* Agreement: all projects who use BEXIS will be involved in testing!
+
 
 ### 2019-07-18
 **Time**: 13:15
