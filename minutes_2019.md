@@ -25,15 +25,15 @@ David and Sven: OPEN!
 **Attendees**: Franziska, Eleonora, David, Martin, Sven
 
 * current status of BExIS2 testing
- * beside the testing itself, David created always new tasks
-  * more focus on features - they should be tested! (urgent)
- * MMM throws at least an error - related to videos
-  * it seems, that a "media.ddl" is missing
-   * probably an untracked library, that is not in Nuget!
-  * missing values for "string" making trouble
-* documentation
- * the tool from Nafiseh is not working properly anymore
-  * just use markdown files from now - benefit to visualize it online (in GitHub) as well
+    * beside the testing itself, David created always new tasks
+        * more focus on features - they should be tested! (urgent)
+    * MMM throws at least an error - related to videos
+        * it seems, that a "media.ddl" is missing
+            * probably an untracked library, that is not in Nuget!
+        * missing values for "string" making trouble
+    * documentation
+        * the tool from Nafiseh is not working properly anymore
+            * just use markdown files from now - benefit to visualize it online (in GitHub) as well
 * search - diff between dataset and publication in BEXIS necessary
 * upload - diff in entities in BEXIS necessary
 * security patch "released" last week in ATTO (as first candidate)
