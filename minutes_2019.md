@@ -20,7 +20,7 @@ David and Sven: OPEN!
 ## Past
 
 ### 2019-10-15
-**Time**: 13:08
+**Time**: 13:08 - 13:51
 **Venue**: Telco
 **Attendees**: Franziska, Eleonora, David, Martin, Sven
 
