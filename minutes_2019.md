@@ -25,32 +25,32 @@ David and Sven: OPEN!
 **Attendees**: Franziska, Eleonora, David, Martin, Sven
 
 * current status of BExIS2 testing
-    * beside the testing itself, David created always new tasks
-        * more focus on features - they should be tested! (urgent)
-    * MMM throws at least an error - related to videos
-        * it seems, that a "media.ddl" is missing
-            * probably an untracked library, that is not in Nuget!
-        * missing values for "string" making trouble
-    * documentation
-        * the tool from Nafiseh is not working properly anymore
-            * just use markdown files from now - benefit to visualize it online (in GitHub) as well
-* search - diff between dataset and publication in BEXIS necessary
-* upload - diff in entities in BEXIS necessary
-* security patch "released" last week in ATTO (as first candidate)
-* small issues from BEXIS (slides from Franziska)
- * metadata validation information (for invalid instances)
- * form fields are interpreted as float (even if it was defined as Integer)
-  * seems to be an issue from XSD itself!
- * external validation & modification for XML / XSD
-  * js file is used to modify things
- * text area vs text input
-  * length < 256 or not set -> text input, else text area
- * how to keep workspaces up-to-date?
-  * private fork? -> public repository and then git pull (regularly)
-  * workspace do not need pull requests -> so this approach is "no problemo!"
+   * beside the testing itself, David created always new tasks
+      * more focus on features - they should be tested! (urgent)
+   * MMM throws at least an error - related to videos
+      * it seems, that a "media.ddl" is missing
+         * probably an untracked library, that is not in Nuget!
+      * missing values for "string" making trouble
+   * documentation
+      * the tool from Nafiseh is not working properly anymore
+         * just use markdown files from now - benefit to visualize it online (in GitHub) as well
+   * search - diff between dataset and publication in BEXIS necessary
+   * upload - diff in entities in BEXIS necessary
+   * security patch "released" last week in ATTO (as first candidate)
+   * small issues from BEXIS (slides from Franziska)
+      * metadata validation information (for invalid instances)
+         * form fields are interpreted as float (even if it was defined as Integer)
+         * seems to be an issue from XSD itself!
+      * external validation & modification for XML / XSD
+         * js file is used to modify things
+      * text area vs text input
+         * length < 256 or not set -> text input, else text area
+      * how to keep workspaces up-to-date?
+         * private fork? -> public repository and then git pull (regularly)
+         * workspace do not need pull requests -> so this approach is "no problemo!"
 
-* workshops for coding / c# / etc.
- * Udemy videos available and could be shared online within the group
+   * workshops for coding / c# / etc.
+      * Udemy videos available and could be shared online within the group
 
 ### 2019-09-12
 **Time**: 13:09
